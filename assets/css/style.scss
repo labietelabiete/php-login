@@ -1,0 +1,78 @@
+*{
+  // outline: 1px solid black;
+  // font-family: 'Anton', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+  background-color:white;
+  // background: rgb(46,210,151);
+  // background: linear-gradient(270deg, rgba(46,210,151,1) 21%, rgba(255,255,255,1) 100%);
+  padding: 0px;
+  margin: 0px;
+}
+.main{
+  height:100vh;
+  padding: 0px !important;
+  margin: 0px !important;
+  max-width: none;
+}
+.row{
+  height: 100%;
+}
+.left-wrapper{
+  background-color:#2ed297;
+  padding-top: 2%;
+}
+.right-wrapper{
+  background-color: white;
+  padding: 0px 10%;
+}
+.form-login{
+  background-color: white;
+  margin-top: 20%;
+  padding-bottom: 40px;
+  // height: 440px;
+  border-radius: 5%;
+  // box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+h2{
+  font-family: 'Anton', sans-serif;
+}
+label{
+  font-weight: 700;
+  color: rgb(37, 37, 37);
+}
+input[type="text"]{
+  background-color: white;
+}
+.form-control{
+  background-color: white !important;
+  border-radius: 0%;
+  border: none;
+  border-bottom: 2px solid #2ed297;
+}
+.w-95{
+  width: 95%;
+}
+.w-60{
+  width: 60%;
+}
+.fas{
+  color: #2ed297;
+}
+.fa-users{
+  font-size: 70px;
+}
+.btn-login{
+  background-color:#2ed297;
+  font-family: 'Anton', sans-serif;
+}
+.btn-login:hover{
+  background-color: #1cea9e;
+  outline: 1px solid #1cea9e;
+}
+p{
+  background-color: #F06543;
+  color: white;
+  margin-bottom: 0px;
+}

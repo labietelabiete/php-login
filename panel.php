@@ -17,7 +17,7 @@ session_start();
     <div class="col col-12">
       <a href="./close_session.php">
         <button class="w-100 btn btn-lg btn-primary"">Logout</button>
-    </a>
+      </a>
     </div>
   </main>
   <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
