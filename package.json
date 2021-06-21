@@ -1,0 +1,23 @@
+{
+  "name": "php-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labietelabiete/php-login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/labietelabiete/php-login/issues"
+  },
+  "homepage": "https://github.com/labietelabiete/php-login#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}
