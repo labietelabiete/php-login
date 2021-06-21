@@ -19,6 +19,7 @@ function authLogin()
     $_SESSION["email"] = $email;
     header("Location:./panel.php");
   } else {
+    $_SESSION["alertMessage"] = "Wrong mail or password";
     header("Location:./index.php");
   }
 

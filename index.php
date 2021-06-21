@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (isset($_GET["logout"])) {
+  $_SESSION["alertMessage"] = "Correct logout";
+}
+?>
+
+
 <html lang="en">
 
 <head>
@@ -37,9 +45,15 @@
             <br>
             <input type="password" name="password" id="passwordInput" class="form-control login-input w-95 d-inline">
           </div>
-          <div class="col col-12 pt-4">
-            <p class="error-msg">Incorrect Password!</p>
-          </div>
+          <?php
+          if (isset($_SESSION["alertMessage"])) {
+            echo '<div class="col col-12 pt-4 text-center">';
+            echo '<p class="alert-msg">';
+            echo $_SESSION["alertMessage"];
+            echo '</p>';
+            echo '</div>';
+          }
+          ?>
           <div class="col col-12 pt-4">
             <button class="w-95 btn btn-lg btn-primary btn-login" type="submit">Sign In</button>
           </div>
